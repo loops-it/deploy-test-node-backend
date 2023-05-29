@@ -48,7 +48,7 @@ app.listen(port, () => {
 });
 
 
-module.exports = app
+// module.exports = app
 // ========================= user message into english ========================
 // app.post("/save-rating", async (req, res) => {
 //     const ratingValue = req.body.ratingValue;
