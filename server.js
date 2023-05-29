@@ -39,8 +39,8 @@ app.use(express.static('public'));
 // const clienttext = new textToSpeech.TextToSpeechClient();
 
 
-app.get('/', (req, res) => {
-    res.sendFile('index.html', { root: path.join(__dirname, 'public') });
+app.get('/home', (req, res) => {
+    con
 })
 
 app.listen(port, () => {
