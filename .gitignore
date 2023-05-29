@@ -1,0 +1,12 @@
+# dependencies
+/node_modules
+
+# local env files
+.env
+
+# production
+/build
+
+/serviceaccount.json
+
+/output.mp3
